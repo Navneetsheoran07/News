@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HindiDashboardActivity"
+    android:background="#F1ECEC">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#919393">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#030404"
+                android:gravity="center"
+                android:text="ABP न्यूज़"
+                android:textColor="#F8F6F6"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/abp" />
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text= "दैनिक जागरण"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#FAF9F9"
+                android:gravity="center"
+                android:background="#000000"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/jagranhinde"
+                android:id="@+id/btn2"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="एनडीटीवी इंडिया "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#F8F7F7"
+                android:gravity="center"
+                android:background="#020202"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/ndtv"
+                android:id="@+id/btn3"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="इंडिया टीवी   "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#FAF7F7"
+                android:gravity="center"
+                android:background="#020202"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/indiatv"
+                android:id="@+id/btn4"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="न्यूज़ 24"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#F8F5F5"
+                android:gravity="center"
+                android:background="#030404"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/newstwofour"
+                android:id="@+id/btn5"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="ज़ी न्यूज़"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#F8F7F7"
+                android:gravity="center"
+                android:background="#030404"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/zee"
+                android:id="@+id/btn6"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="इंडिया टुडे "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#F8F6F6"
+                android:gravity="center"
+                android:background="#020202"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/today"
+                android:id="@+id/btn7"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="हिंदुस्तान टाइम्स"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#F8F5F5"
+                android:gravity="center"
+                android:background="#030404"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/eightbtn"
+                android:id="@+id/btn8"/>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

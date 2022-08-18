@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnglishActivity"
+    android:background="#E8E7E7">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#030404"
+                android:gravity="center"
+                android:text="ABP NEWS"
+                android:textColor="#FAF8F8"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/abpeng"
+                android:id="@+id/btn11" />
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#919393">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/jagraneng"
+                android:id="@+id/btn12"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="DAINIK JAGRAN "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#FAF6F6"
+                android:gravity="center"
+                android:background="#000000"
+                />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="NDTV INDIA"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#FAF7F7"
+                android:gravity="center"
+                android:background="#020202"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/ndtv"
+                android:id="@+id/btn13"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="INDIA TV"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#F6F5F5"
+                android:gravity="center"
+                android:background="#040404"
+               />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/indiatv"
+                android:id="@+id/btn14"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="NEWS 24"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#FAF9F9"
+                android:gravity="center"
+                android:background="#050505"
+               />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/newstwofour"
+                android:id="@+id/btn15"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="ZEE NEWS"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#FAF8F8"
+                android:gravity="center"
+                android:background="#030404"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/zee"
+                android:id="@+id/btn16"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="INDIA TODAY"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#F8F7F7"
+                android:gravity="center"
+                android:background="#070707"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/today"
+                android:id="@+id/btn17"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+
+            app:cardBackgroundColor="#919393">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="HINDUSTAN TIME"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textColor="#F8F5F5"
+                android:gravity="center"
+                android:background="#020202"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/engeight"
+                android:id="@+id/btn18"/>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
